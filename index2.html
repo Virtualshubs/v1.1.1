@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Catálogo Cliente</title>
+</head>
+<body>
+<script>
+  let scenesArray = [...];
+
+  const catalogURL = 'catalogindex.html'; 
+  const catalogWindow = window.open(catalogURL);
+
+  catalogWindow.onload = () => {
+    catalogWindow.scenesArray = scenesArray;
+    if(catalogWindow.initCatalog) catalogWindow.initCatalog(); 
+  };
+</script>
+</body>
+</html>
