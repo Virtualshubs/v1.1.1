@@ -86,8 +86,8 @@ body {
   border-radius: 6px;
   border: none;
   cursor: pointer;
-  background: rgba(0,255,255,0.12);
-  color: #fff;
+  background: #f1f1f1;
+  color: black;
   font-size: 11px;
   transition: 0.2s;
 }
