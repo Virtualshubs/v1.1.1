@@ -93,7 +93,7 @@ body {
 }
 
 .scene-buttons button:hover {
-  background: rgba(0,255,255,0.25);
+  background: #f9f9f9;
 }
 
 
